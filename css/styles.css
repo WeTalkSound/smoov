@@ -24,7 +24,7 @@ body {
 }
 
 .bg {
-  background-image: url("../../WTXtra Site - Copy/images/bg3.jpg");
+  background-image: url("https://fortuneatlas.github.io/smoov/images/bg3.png");
   color: #ffeaf2;
   background-size: cover;
   background-color: #f8f8fa;
@@ -34,7 +34,7 @@ body {
 
 @media (max-width: 720px) {
   .bg {
-    background-image: url("../../WTXtra Site - Copy/images/bg3.jpg");
+    background-image: url("https://fortuneatlas.github.io/smoov/images/bg3.png");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
