@@ -25,10 +25,8 @@ body {
 
 .bg {
   background-image: url("https://fortuneatlas.github.io/smoov/images/bg3.jpg");
-  color: #ffeaf2;
   background-size: cover;
   width: 100%;
-  padding: ;
 }
 
 @media (max-width: 720px) {
@@ -37,10 +35,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
-    max-height: 100%;
     display: block;
     padding-top: 2rem;
-    background-color: #f8f8fa;
   }
 }
 
