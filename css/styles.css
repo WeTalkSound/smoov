@@ -47,7 +47,7 @@ body {
 }
 
 .bg5 {
-  background-image: url("../../WTXtra Site - Copy/images/bg5.png");
+  background-image: url("https://fortuneatlas.github.io/smoov/images/bg5.png");
   background-size: cover;
   width: 100%;
   padding: ;
@@ -55,7 +55,7 @@ body {
 
 @media (max-width: 720px) {
   .bg5 {
-    background-image: url("../../WTXtra Site - Copy/images/bg5.png");
+    background-image: url("https://fortuneatlas.github.io/smoov/images/bg5.png");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -66,7 +66,7 @@ body {
 }
 
 .bg6 {
-  background-image: url("../../WTXtra Site - Copy/images/bg6.png");
+  background-image: url("https://fortuneatlas.github.io/smoov/images/bg6.png");
   background-size: cover;
   width: 100%;
   padding: ;
@@ -74,7 +74,7 @@ body {
 
 @media (max-width: 720px) {
   .bg6 {
-    background-image: url("../../WTXtra Site - Copy/images/bg6.png");
+    background-image: url("https://fortuneatlas.github.io/smoov/images/bg6.png");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
