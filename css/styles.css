@@ -24,7 +24,7 @@ body {
 }
 
 .bg {
-  background-image: url("https://wetalksound.github.io/smoov/images/bg3.jpg");
+  background-image: url("https://inharmonyng.com/images/bg3.jpg");
   background-size: cover;
   width: 100%;
   padding: ;
@@ -32,7 +32,7 @@ body {
 
 @media (max-width: 1024px) {
   .bg {
-    background-image: url("https://wetalksound.github.io/smoov/images/bg3.jpg");
+    background-image: url("https://inharmonyng.com/images/bg3.jpg");
     /*background-image: url("../../WTXtra Site - Copy/images/bg3.jpg");*/
     background-size: cover;
     background-repeat: no-repeat;
