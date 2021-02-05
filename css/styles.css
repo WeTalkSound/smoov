@@ -44,7 +44,7 @@ body {
 }
 
 .bg5 {
-  background-image: url("https://wetalksound.github.io/smoov/images/bg8.png");
+  background-image: url("https://inharmonyng.com/images/bg8.png");
   background-size: cover;
   width: 100%;
   padding: ;
@@ -52,7 +52,7 @@ body {
 
 @media (max-width: 1024px) {
   .bg5 {
-    background-image: url("https://wetalksound.github.io/smoov/images/bg8.png");
+    background-image: url("https://inharmonyng.com/images/bg8.png");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -349,7 +349,7 @@ a {
 }
 
 .bg4 {
-  background-image: url("https://wetalksound.github.io/smoov/images/bg5.png");
+  background-image: url("https://inharmonyng.com/images/bg5.png");
   background-size: cover;
   width: 100%;
   padding: 2% 0;
@@ -359,7 +359,7 @@ a {
 
 @media (max-width: 720px) {
   .bg4 {
-    background-image: url("https://wetalksound.github.io/smoov/images/bg5.png");
+    background-image: url("https://inharmonyng.com/images/bg5.png");
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 100%;
