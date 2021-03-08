@@ -44,7 +44,7 @@ body {
 }
 
 .bg5 {
-  background-image: url("https://inharmonyng.com/images/bg8.png");
+  background-image: url("https://i.ibb.co/PxWd8fd/bg8-1.png");
   background-size: cover;
   width: 100%;
   padding: ;
@@ -52,7 +52,7 @@ body {
 
 @media (max-width: 1024px) {
   .bg5 {
-    background-image: url("https://inharmonyng.com/images/bg8.png");
+    background-image: url("https://i.ibb.co/PxWd8fd/bg8-1.png");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
