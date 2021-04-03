@@ -385,6 +385,16 @@ a {
   }
 }
 
+.videopadding {
+  padding: 0 0;
+}
+
+@media (max-width: 1000px) {
+  .videopadding {
+    padding: 0 0;
+  }
+}
+
 .video {
   max-width: 100%;
   max-height: 100%;
