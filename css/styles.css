@@ -240,6 +240,12 @@ hr {
   }
 }
 
+@media (max-width: 1024px) {
+  .votename {
+    font-size: 16px;
+  }
+}
+
 h1 {
   font-size: 18px;
 }
