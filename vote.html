@@ -95,8 +95,8 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
       <div id="msgBanner" class="alert" role="alert"></div>
       <h5 style="color: white; text-align: center;">Vote for your favourite entry</h5><nr> <p style="color: #ffcc00; text-align: center;">Please select your favourite group, input your email in the box below and hit 'Vote now'. </p><br>
       <input type="email" placeholder="Enter your email address..." name="email" class="form-control mb-3 col-md-6 offset-md-3 mx-auto" required />
-      <button class="btn btn-sm text-center">
-        Voting Closed
+      <button id='submitVote' type="submit" class="btn btn-sm text-center">
+        Vote Now
       </button>
       <br><br>
       <div class="row" >
@@ -110,7 +110,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
           </label>
           <input type="radio" id="voteForHouse" name="vote" value="House" required />
         </div>
-        <div class="col-md-3">
+        <!--<div class="col-md-3">
           <br>
           <label for="voteForCeed" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
             <div class="col" style="padding: 2% 2%; outline: 2px white;">
@@ -119,7 +119,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
             </div>
           </label>
            <input type="radio" id="voteForCeed" name="vote" value="Ceed" required />
-        </div>
+        </div>-->
         <!--<div class="col-md-3">
           <br>
           <label for="voteForThejoyreprise" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
@@ -160,7 +160,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
           </label>
           <input type="radio" id="voteForthevoicecrew" name="vote" value="thevoicecrew" required />
         </div>-->
-        <div class="col-md-3">
+        <!--<div class="col-md-3">
           <br>
           <label for="voteForvoxvitaechorale" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
             <div class="col" style="padding: 2% 2%; outline: 2px white;">
@@ -169,7 +169,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
             </div>
           </label>
           <input type="radio" id="voteForvoxvitaechorale" name="vote" value="voxvitaechorale" required />
-        </div>
+        </div>-->
         <div class="col-md-3">
           <br>
           <label for="voteForthepolyphoniks" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
@@ -180,7 +180,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
           </label>
           <input type="radio" id="voteForthepolyphoniks" name="vote" value="thepolyphoniks" required />
         </div>
-        <div class="col-md-3">
+        <!--<div class="col-md-3">
           <br>
           <label for="voteFormuse" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
             <div class="col" style="padding: 2% 2%; outline: 2px white;">
@@ -189,7 +189,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
             </div>
           </label>
           <input type="radio" id="voteFormuse" name="vote" value="muse" required />
-        </div>
+        </div>-->
          <!--<div class="col-md-3">
           <br>
           <label for="voteForthrillers" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
@@ -240,7 +240,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
           </label>
           <input type="radio" id="voteForrizyn" name="vote" value="rizyn" required />
         </div>-->
-        <div class="col-md-3">
+        <!--<div class="col-md-3">
           <br>
           <label for="voteForvocamonix" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
             <div class="col" style="padding: 2% 2%; outline: 2px white;">
@@ -249,7 +249,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
             </div>
           </label>
           <input type="radio" id="voteForvocamonix" name="vote" value="vocamonix" required />
-        </div>
+        </div>-->
          <!--<div class="col-md-3">
           <br>
           <label for="voteForfederal" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
@@ -280,7 +280,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
           </label>
           <input type="radio" id="voteForftunes" name="vote" value="ftunes" required />
         </div>-->
-        <div class="col-md-3">
+        <!--<div class="col-md-3">
           <br>
           <label for="voteForthetenormembers" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
             <div class="col" style="padding: 2% 2%; outline: 2px white;">
@@ -289,8 +289,8 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
             </div>
           </label>
           <input type="radio" id="voteForthetenormembers" name="vote" value="thetenormembers" required />
-        </div>
-        <div class="col-md-3">
+        </div>-->
+        <!--<div class="col-md-3">
           <br>
           <label for="voteFortheanvilfour" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
             <div class="col" style="padding: 2% 2%; outline: 2px white;">
@@ -299,7 +299,7 @@ style=" fill:#000000;"><defs><radialGradient cx="113" cy="111.23438" r="110.3833
             </div>
           </label>
           <input type="radio" id="voteFortheanvilfour" name="vote" value="theanvilfour" required />
-        </div>
+        </div>-->
          <!--<div class="col-md-3">
           <br>
           <label for="voteFordeuniquesingerz" class="" style="padding: 0 0; margin: 0 3%; outline: solid 1px;">
